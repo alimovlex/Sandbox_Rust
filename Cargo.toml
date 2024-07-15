@@ -1,3 +1,3 @@
 [workspace]
 resolver = "2"
-members = ["main", "sandbox", "demo_scraper"]
+members = ["main", "scraper_example", "demo_scraper"]

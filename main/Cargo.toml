@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sandbox = { path = "../sandbox" }
+scraper_example = { path = "../scraper_example" }
 demo_scraper = { path = "../demo_scraper" }
