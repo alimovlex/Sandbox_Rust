@@ -149,7 +149,7 @@ impl Browser {
 }
 
 #[tokio::main]
-async fn main() {
+pub async fn demo_scraper() {
   let mut webdriver_start = Command::new("geckodriver");
   webdriver_start.spawn().expect("0");
   let start_headless_res = Browser::new(4444).await;

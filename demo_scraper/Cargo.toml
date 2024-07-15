@@ -1,12 +1,11 @@
 [package]
-name = "scraper"
+name = "demo_scraper"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sandbox = { path = "../sandbox" }
 thirtyfour = { git = "https://github.com/stevepryde/thirtyfour" }
 rayon = "1.8.1"
 tokio = { version = "1.36.0", features = ["full"] }
